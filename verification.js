@@ -7,7 +7,7 @@ $('#login-button').click(function (event) {
         $('form').fadeOut(2500);
         $('.wrapper').addClass('form-success');
         setTimeout(function () {
-            location.href = "index.html";
+            location.href = "1.html";
         }, 1000);
     } else {
         alert("用户名或密码不正确！");
